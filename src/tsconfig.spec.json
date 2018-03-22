@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "../out-tsc/spec",
+    "sourceMap": true,
+    "target": "es6",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "paths": {
+      "@angular/*": ["../node_modules/@angular/*"],
+      "rxjs/*": ["../node_modules/rxjs/*"],
+      "@criollapp/*": ["../node_modules/@criollapp/*"]
+    }
+  },
+  "files": [
+    "test.ts"
+  ],
+  "include": [
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ],
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "skipMetadataEmit": false
+  },
+  "exclude": [
+    "../node_modules"
+  ]
+}
