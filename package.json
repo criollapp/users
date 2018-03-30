@@ -2,9 +2,9 @@
   "name": "@criollapp/users",
   "main": "./bundles/ca-users.umd.js",
   "typings": "typings/public_api.d.ts",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "license": "MIT",
-  "description": "Criollapp Users Library",
+  "description": "Angular module for user management.",
   "scripts": {
     "build": "node build.js",
     "copy-files": "cp package.json dist && cp readme.md dist",
@@ -23,7 +23,9 @@
   "keywords": [
     "angular2",
     "library",
-    "example"
+    "users",
+    "user",
+    "management"
   ],
   "author": "Miguel Rivera",
   "private": false,
